@@ -166,7 +166,7 @@
     <div class="hero-body">
       <img src="static/images/block.png" alt="Descriptive Diagram" id="diagram" height="100%">
       <h2 class="subtitle has-text-centered">
-        We use the standard optimization pipeline from 3DGS [20] with modifications, introducing a correction factor (\(\psi\)) to obtain the projected 2D covariance matrix (\(\Sigma^{\prime}_{2\times2}\)) compatible with splatting for DARBFs within the existing framework. Our changes within the pipeline are highlighted in <span class="red-text">red text</span>.           
+        We use the standard optimization pipeline from 3DGS with modifications, introducing a correction factor (\(\psi\)) to obtain the projected 2D covariance matrix (\(\Sigma^{\prime}_{2\times2}\)) compatible with splatting for DARBFs within the existing framework. Our changes within the pipeline are highlighted in <span class="red-text">red text</span>.           
       </h2>
     </div>
   </div>
@@ -208,7 +208,7 @@
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-seven-eighths">
         <div class="content has-text-justified">
           <p>
             We present comparisons between our proposed methods (Raised cosine) and established baseline (3DGS) alongside their respective ground truth images. The displayed scenes are ordered as follows: TRUCK and TRAIN from Tanks&Temples dataset; COUNTER from Mip-NeRF360  dataset. We highlight subtle improvements in our approach, such as the appearance of a light bulb in the rendered image of the first row, which is absent in the splitting algorithm. Additionally, the edges of the train and the shadows of the rack in the images on the second and third rows, respectively, are noticeably sharper, whereas these details appear blurred in the original splitting algorithm. Note that in addition to improved reconstruction, we also achieve significantly better training and memory efficiency with these alternative primitives. Please refer our manuscript for further details.
